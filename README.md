@@ -1,16 +1,16 @@
 # 🗺️ U.S. States Geography Quiz Game  
 
-An **interactive Python-based educational game** that challenges players to test and expand their knowledge of U.S. geography. By combining **data visualization, geospatial coordinates, and real-time user interaction**, the game transforms traditional learning into an engaging, visually intuitive experience.  
+An **interactive Python based educational game** that challenges players to test and expand their knowledge of U.S. geography. By combining **data visualization, geospatial coordinates, and real time user interaction**, the game transforms traditional learning into an engaging, visually intuitive experience.  
 
 ---
 
 ## 📖 Overview  
 
-The **U.S. States Geography Quiz Game** is a **data-driven educational tool** designed to help users memorize the names and locations of all 50 U.S. states. Leveraging Python’s **Turtle Graphics** for visualization and **Pandas** for dataset manipulation, the project integrates fun with functional learning.  
+The **U.S. States Geography Quiz Game** is a **data driven educational tool** designed to help users memorize the names and locations of all 50 U.S. states. Leveraging Python’s **Turtle Graphics** for visualization and **Pandas** for dataset manipulation, the project integrates fun with functional learning.  
 
 Players are prompted to guess the names of states, which are then dynamically rendered at their correct geographical positions on a **blank U.S. map**. Beyond entertainment, the project demonstrates the seamless fusion of **data science principles, geospatial mapping, and interactive programming**.  
 
-This project is not just a quiz — it is a **learning platform** built to showcase how simple datasets can be transformed into engaging **graphical applications**.  
+This project is not just a quiz, it is a **learning platform** built to showcase how simple datasets can be transformed into engaging **graphical applications**.  
 
 ---
 
@@ -20,7 +20,7 @@ This project leverages a combination of **Python libraries** and **software engi
 
 - 🐍 **Python (Core Language)** – The primary programming language powering the entire application.  
 - 🎨 **Turtle Graphics** – Used for rendering the U.S. map and dynamically placing state names at accurate coordinates.  
-- 📊 **CSV Handling (Pandas / Built-in CSV)** – Reads and processes the `50_states.csv` dataset to fetch state names and positional data.  
+- 📊 **CSV Handling (Pandas / Built in CSV)** – Reads and processes the `50_states.csv` dataset to fetch state names and positional data.  
 - 🖼️ **Image Integration** – `blank_states_img.gif` is embedded as a background canvas, simulating an interactive quiz map.  
 - 💾 **Data Persistence** – Captures user guesses, validates against the dataset, and logs missed states for post-game review.  
 - 🧩 **Algorithmic Logic** – Implements input validation, string normalization, and conditional checks to ensure accuracy and robustness.  
