@@ -22,9 +22,9 @@ This project leverages a combination of **Python libraries** and **software engi
 - 🎨 **Turtle Graphics** – Used for rendering the U.S. map and dynamically placing state names at accurate coordinates.  
 - 📊 **CSV Handling (Pandas / Built in CSV)** – Reads and processes the `50_states.csv` dataset to fetch state names and positional data.  
 - 🖼️ **Image Integration** – `blank_states_img.gif` is embedded as a background canvas, simulating an interactive quiz map.  
-- 💾 **Data Persistence** – Captures user guesses, validates against the dataset, and logs missed states for post-game review.  
+- 💾 **Data Persistence** – Captures user guesses, validates against the dataset, and logs missed states for post game review.  
 - 🧩 **Algorithmic Logic** – Implements input validation, string normalization, and conditional checks to ensure accuracy and robustness.  
-- 🖥️ **Event-driven Programming** – Waits for user input iteratively, updating the graphical interface in real-time.  
+- 🖥️ **Event driven Programming** – Waits for user input iteratively, updating the graphical interface in real time.  
 
 ---
 
@@ -37,7 +37,7 @@ The quiz is designed with **immersive, interactive, and pedagogically structured
 3. ❌ **Incorrect Guess Handling** – Invalid or duplicate inputs are gracefully discarded, preserving gameplay continuity and data integrity.  
 4. 🎯 **Win Condition** – Progression continues until all **50 U.S. states** have been successfully identified or until the user manually exits.  
 5. 📜 **Exit & Review Feature** – Exiting the game not only halts the interactive session but also triggers the generation of a **comprehensive list of unguessed states** for subsequent review.  
-6. 💾 **Automated Knowledge Reinforcement** – On termination via the **Exit command in the GUI**, the application programmatically compiles and persists a `states_to_learn.csv` file, containing all the unguessed states. This dataset acts as a **personalized study aid**, ensuring that each gameplay session contributes to long-term knowledge retention.  
+6. 💾 **Automated Knowledge Reinforcement** – On termination via the **Exit command in the GUI**, the application programmatically compiles and persists a `states_to_learn.csv` file, containing all the unguessed states. This dataset acts as a **personalized study aid**, ensuring that each gameplay session contributes to long term knowledge retention.  
 7. 🖼️ **Real-time Visual Feedback** – The map updates seamlessly in response to correct inputs, offering a **dynamic and visually engaging learning environment**.  
 8. ⚡ **Optimized Loop Control** – An efficiently designed game loop ensures smooth execution and minimal memory overhead, maintaining peak runtime performance.  
 9. 🎓 **Educational Utility** – Functions as a **gamified study tool**, reinforcing U.S. geography knowledge in an interactive format.  
