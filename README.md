@@ -38,7 +38,7 @@ The quiz is designed with **immersive, interactive, and pedagogically structured
 4. 🎯 **Win Condition** – Progression continues until all **50 U.S. states** have been successfully identified or until the user manually exits.  
 5. 📜 **Exit & Review Feature** – Exiting the game not only halts the interactive session but also triggers the generation of a **comprehensive list of unguessed states** for subsequent review.  
 6. 💾 **Automated Knowledge Reinforcement** – On termination via the **Exit command in the GUI**, the application programmatically compiles and persists a `states_to_learn.csv` file, containing all the unguessed states. This dataset acts as a **personalized study aid**, ensuring that each gameplay session contributes to long term knowledge retention.  
-7. 🖼️ **Real-time Visual Feedback** – The map updates seamlessly in response to correct inputs, offering a **dynamic and visually engaging learning environment**.  
+7. 🖼️ **Real time Visual Feedback** – The map updates seamlessly in response to correct inputs, offering a **dynamic and visually engaging learning environment**.  
 8. ⚡ **Optimized Loop Control** – An efficiently designed game loop ensures smooth execution and minimal memory overhead, maintaining peak runtime performance.  
 9. 🎓 **Educational Utility** – Functions as a **gamified study tool**, reinforcing U.S. geography knowledge in an interactive format.  
 
@@ -142,7 +142,7 @@ This file contains the **list of unguessed states** — i.e., the ones the playe
 
 ---
 
-⚡ **In short:** Once you exit the GUI using the `"exit"` command, you walk away not just with your score, but also with a **data-driven roadmap of states you still need to master.**  
+⚡ **In short:** Once you exit the GUI using the `"exit"` command, you walk away not just with your score, but also with a **data driven roadmap of states you still need to master.**  
 
 ---
 
@@ -153,12 +153,12 @@ This file contains the **list of unguessed states** — i.e., the ones the playe
 
 ## ✨ Key Highlights  
 
-The **U.S. States Geography Quiz Game** is not merely a casual trivia challenge — it is a thoughtfully engineered project that blends **education, interactivity, and software design principles** into a cohesive learning experience.  
+The **U.S. States Geography Quiz Game** is not merely a casual trivia challenge. It is a thoughtfully engineered project that blends **education, interactivity, and software design principles** into a cohesive learning experience.  
 
 ---
 
 ### 🗺️ Immersive Educational Gameplay  
-- **Interactive Map-Based Learning:**  
+- **Interactive Map Based Learning:**  
   Players actively engage with a **graphical U.S. map**, typing state names that are dynamically placed at their exact geographic coordinates.  
 - **Seamless Real-Time Feedback:**  
   Correct guesses instantly update the map, while incorrect or duplicate inputs are gracefully ignored, maintaining an uninterrupted flow.  
