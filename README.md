@@ -160,19 +160,19 @@ The **U.S. States Geography Quiz Game** is not merely a casual trivia challenge.
 ### 🗺️ Immersive Educational Gameplay  
 - **Interactive Map Based Learning:**  
   Players actively engage with a **graphical U.S. map**, typing state names that are dynamically placed at their exact geographic coordinates.  
-- **Seamless Real-Time Feedback:**  
+- **Seamless Real Time Feedback:**  
   Correct guesses instantly update the map, while incorrect or duplicate inputs are gracefully ignored, maintaining an uninterrupted flow.  
-- **Progress Tracking Built-In:**  
+- **Progress Tracking Built In:**  
   The game header continuously updates with the current score (*e.g., 15/50 States Correct*), ensuring players always know where they stand.  
 - **Exit & Reinforce System:**  
-  A unique **“Exit & Learn” mechanism** generates a CSV file (`states_to_learn.csv`) containing only the states that were missed — turning gameplay into a **personalized study plan**.  
+  A unique **“Exit & Learn” mechanism** generates a CSV file (`states_to_learn.csv`) containing only the states that were missed, Therefore turning gameplay into a **personalized study plan**.  
 
 ---
 
 ### ⚙️ Clean, Maintainable Code Design  
 - **Structured Data Handling with Pandas:**  
   Efficient CSV reading, filtering, and export operations form the backbone of state validation and learning reinforcement.  
-- **Event-Driven Graphics with Turtle:**  
+- **Event Driven Graphics with Turtle:**  
   Utilizes Python’s `turtle` module to render states dynamically on the GUI, making the map visually interactive without external libraries.  
 - **Optimized Game Loop:**  
   Lightweight looping mechanisms ensure smooth execution without unnecessary memory overhead.  
