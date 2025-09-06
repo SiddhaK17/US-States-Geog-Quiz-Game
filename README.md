@@ -184,14 +184,14 @@ The **U.S. States Geography Quiz Game** is not merely a casual trivia challenge.
 ### 🚀 Learning Outcomes & Skill Development  
 - **Applied Data Science Concepts:** Leveraged `pandas` for CSV parsing, data filtering, and exporting insights.  
 - **Mastery of Coordinate Systems:** Accurately mapped textual data to (x, y) positions for precise graphical rendering.  
-- **Event Handling Proficiency:** Designed real-time user input handling within a controlled loop.  
-- **Problem-Solving Mindset:** Balanced user experience (e.g., ignoring duplicates) with robust back-end logic.  
+- **Event Handling Proficiency:** Designed real time user input handling within a controlled loop.  
+- **Problem Solving Mindset:** Balanced user experience (e.g., ignoring duplicates) with robust back end logic.  
 - **Educational Gamification:** Transformed static geography data into an engaging, interactive tool for knowledge retention.  
 
 ---
 
 ### 🌟 Future Expansion Opportunities  
-- Add **difficulty tiers** (easy = multiple-choice, hard = typed answers only).  
+- Add **difficulty tiers** (easy = multiple choice, hard = typed answers only).  
 - Introduce **timer-based scoring** for competitive gameplay.  
 - Implement **regional quizzes** (e.g., East Coast, Midwest) for focused practice.  
 - Enhance visuals with **animated transitions or color-coded state highlights**.  
