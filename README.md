@@ -192,23 +192,23 @@ The **U.S. States Geography Quiz Game** is not merely a casual trivia challenge.
 
 ### 🌟 Future Expansion Opportunities  
 - Add **difficulty tiers** (easy = multiple choice, hard = typed answers only).  
-- Introduce **timer-based scoring** for competitive gameplay.  
+- Introduce **timer based scoring** for competitive gameplay.  
 - Implement **regional quizzes** (e.g., East Coast, Midwest) for focused practice.  
-- Enhance visuals with **animated transitions or color-coded state highlights**.  
+- Enhance visuals with **animated transitions or color coded state highlights**.  
 - Extend functionality into a **web app or mobile version** for broader accessibility.  
 
 ---
 
 ## 📜 Credits  
 
-This project was inspired by my continuous journey to blend **Python programming with real-world educational applications**. The foundational knowledge and motivation stem from **Dr. Angela Yu’s “100 Days of Code: The Complete Python Pro Bootcamp”**, which introduced the core concepts of GUI handling, turtle graphics, and CSV-based data manipulation.  
+This project was inspired by my continuous journey to blend **Python programming with real world educational applications**. The foundational knowledge and motivation stem from **Dr. Angela Yu’s “100 Days of Code: The Complete Python Pro Bootcamp”**, which introduced the core concepts of GUI handling, turtle graphics, and CSV based data manipulation.  
 
 Beyond the guided learning, I independently:  
-- Integrated **CSV-driven state validation**.  
+- Integrated **CSV driven state validation**.  
 - Designed the **exit mechanism with automatic `states_to_learn.csv` generation**.  
-- Enhanced the **game loop for smooth, interruption-free performance**.  
+- Enhanced the **game loop for smooth, interruption free performance**.  
 - Authored detailed **documentation and structured code comments** to elevate professionalism and clarity.  
 
-Special acknowledgment goes to the Python open-source ecosystem, particularly **Pandas** and **Turtle**, which made this project both achievable and scalable.  
+Special acknowledgment goes to the Python open source ecosystem, particularly **Pandas** and **Turtle**, which made this project both achievable and scalable.  
 
 This project stands as a demonstration of how **educational tools can be gamified** with Python, producing an outcome that is both enjoyable and intellectually enriching.  
