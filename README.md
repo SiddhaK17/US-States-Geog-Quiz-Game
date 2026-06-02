@@ -47,7 +47,7 @@ The quiz is designed with **immersive, interactive, and pedagogically structured
 ## 📂 Project Structure
 
 ```
-us-states-geog-quiz-game/
+US-States-Geog-Quiz-Game/
     │── main.py                 # Core game logic with turtle graphics and pandas
     │── 50_states.csv           # Dataset of all 50 U.S. states with coordinates
     │── blank_states_img.gif    # Blank map of the U.S. for turtle rendering
@@ -77,12 +77,12 @@ us-states-geog-quiz-game/
 
 3. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/US-states-geog-quiz-game.git
+   git clone https://github.com/your-username/US-States-Geog-Quiz-Game.git
    ```
 
 4. **Navigate to the project folder**
    ```bash
-   cd us-states-geog-quiz-game
+   cd US-States-Geog-Quiz-Game
    ```
 
 > 💡 **Optional – Windows Only:** If you encounter errors related to `TCL_LIBRARY` or `TK_LIBRARY`, ensure that your Python installation's Tcl paths are correctly set using `os.environ` at the beginning of your script:
