@@ -1,9 +1,4 @@
 #Note: the image is in .gif and not .png or .jpg is because turtle only works with this one image format. so in order to display an image, we need to convert it into a .gif file
-import os
-
-
-os.environ['TCL_LIBRARY'] = r'C:\Program Files\Python313\tcl\tcl8.6'
-os.environ['TK_LIBRARY'] = r'C:\Program Files\Python313\tcl\tk8.6'
 
 import turtle
 import pandas
@@ -47,7 +42,7 @@ while len(guessed_states) < 50:
 
 
 #If answer_state is one of the states in all the states of the 50_states.csv
-    if answer_state in all_states:     #note:  this is something that you wont be able to do so checking for membership using the "in" keyword unless you have converted the data in "all_states" to list
+    if answer_state in all_states and answer_state not in guessed_states:     #note:  this is something that you wont be able to do so checking for membership using the "in" keyword unless you have converted the data in "all_states" to list
         guessed_states.append(answer_state)
         t = turtle.Turtle()
         t.hideturtle()
@@ -56,3 +51,17 @@ while len(guessed_states) < 50:
         t.goto(state_data.x.item(), state_data.y.item())   # by using ".item", this way we're accessing the single item contained in our Panda series
         #If they got it right:
         t.write(answer_state)    #create a turtle to write the name of the state at the state's x and y coordinate
+
+if len(guessed_states) == 50:
+    congrats = turtle.Turtle()
+    congrats.hideturtle()
+    congrats.penup()
+    congrats.goto(0, 0)
+
+    congrats.write(
+        "Excellent Work! You guessed all 50 states!",
+        align="center",
+        font=("Arial", 16, "bold")
+    )
+    
+screen.mainloop()
