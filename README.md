@@ -10,7 +10,7 @@ The **U.S. States Geography Quiz Game** is a **data driven educational tool** de
 
 Players are prompted to guess the names of states, which are then dynamically rendered at their correct geographical positions on a **blank U.S. map**. Beyond entertainment, the project demonstrates the seamless fusion of **data science principles, geospatial mapping, and interactive programming**.  
 
-This project is not just a quiz, it is a **learning platform** built to showcase how simple datasets can be transformed into engaging **graphical applications**.  
+This project demonstrates how **structured datasets**, **graphical programming**, **coordinate-based visualization**, and **real-time user interaction** can be combined to create an engaging educational application that transforms **geographical learning** into an **interactive and rewarding experience**.
 
 ---
 
@@ -20,7 +20,7 @@ This project leverages a combination of **Python libraries** and **software engi
 
 - 🐍 **Python (Core Language)** – The primary programming language powering the entire application.  
 - 🎨 **Turtle Graphics** – Used for rendering the U.S. map and dynamically placing state names at accurate coordinates.  
-- 📊 **CSV Handling (Pandas / Built in CSV)** – Reads and processes the `50_states.csv` dataset to fetch state names and positional data.  
+- 📊 **CSV Handling with Pandas** – Reads and processes the `50_states.csv` dataset to fetch state names and positional data.  
 - 🖼️ **Image Integration** – `blank_states_img.gif` is embedded as a background canvas, simulating an interactive quiz map.  
 - 💾 **Data Persistence** – Captures user guesses, validates against the dataset, and logs missed states for post game review.  
 - 🧩 **Algorithmic Logic** – Implements input validation, string normalization, and conditional checks to ensure accuracy and robustness.  
@@ -67,7 +67,7 @@ us-states-geog-quiz-game/
 
 1. Install the required dependencies for GUI rendering (if not already present):
    ```bash
-   pip install turtle
+   Turtle Graphics is included with Python's standard library and does not require separate installation.
    ```
 
 2. Install the required dependencies for data handling:
